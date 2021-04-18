@@ -1,4 +1,4 @@
-package com.yqq.thread.ch01;
+package com.yqq.thread.ch01.mythread;
 
 /**
  *
