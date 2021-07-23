@@ -1,5 +1,6 @@
 package com.yqq.thread.ch02.p87;
 
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,9 +8,12 @@ public class Main {
         ThreadAList a = new ThreadAList(demoList);
         a.setName("A");
         a.start();
-        ThreadBList b = new ThreadBList(demoList);
+        /*ThreadBList b = new ThreadBList(demoList);
         b.setName("B");
-        b.start();
+        b.start();*/
+        ThreadCList c = new ThreadCList(demoList);
+        c.setName("C");
+        c.start();
 
     }
 }
