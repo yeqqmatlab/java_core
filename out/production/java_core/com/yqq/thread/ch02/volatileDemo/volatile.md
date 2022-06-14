@@ -1,0 +1,2 @@
+volatile是java提供的轻量级同步机制。java语言包含两种内在的同步机制：同步快（或方法）和volatile变量，相比于synchronized（synchronized通常称为重量级锁），
+volatile更轻量级，因为它不会引起上下文的切换和调度。但是volatile变量的同步性较差，使用更容易出差。
